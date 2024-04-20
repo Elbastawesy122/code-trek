@@ -1,0 +1,19 @@
+.about{
+    background-image: linear-gradient(to top, #000268 , #181950);
+}
+.us p{
+    width: 550px;
+    direction: rtl;
+    text-align: start;
+}
+img{
+    width: 350px;
+}
+@media screen and (max-width: 900px){
+    .about{
+        flex-direction: column;
+    }
+    .us p{
+        width: 300px;
+    }
+}

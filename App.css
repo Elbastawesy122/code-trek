@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  background-color: #181950;
+  scroll-behavior: smooth;
+  background-size: cover;
+  min-height: 100vh;
+}
+.head{
+  font-family: cursive;
+  animation: head 2s infinite ease-in-out alternate;
+}
+@keyframes head {
+  from{
+    color: #fac358;
+  }
+  to{
+    color: #fac35859;
+  }
+}

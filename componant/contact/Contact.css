@@ -1,0 +1,27 @@
+input,
+textarea{
+    margin: 10px;
+    width: 500px;
+    background-color: #181950;
+    color: #0005ff;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+}
+.contact button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    color: #b9a2a2;
+    background-color: #181950;
+}
+@media screen and (max-width: 600px){
+    input,
+    textarea{
+        width: 325px;
+    }
+}
+.copyright{
+    background-image: linear-gradient(to top, #181950, #000268);
+}

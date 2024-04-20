@@ -1,0 +1,27 @@
+.home{
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+.text{
+    margin-bottom: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.text p{
+    direction: rtl;
+    line-height: 2;
+}
+.but{
+    padding: 8px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #fac35899;
+}
+.but:hover{
+    background-color: #fac35875;
+}

@@ -1,0 +1,34 @@
+.courses .box{
+    width: 550px;
+    margin: 25px auto;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #7f6c6ca1;
+}
+.courses .box h1{
+    font-size: 23px;
+    font-style: italic;
+    font-variant: petite-caps;
+    font-weight: 600;
+    color: #181950;
+    margin: 10px;
+}
+.courses .box button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+    background-color: #000268;
+}
+.courses .box p{
+    font-size: 15px;
+    font-weight: 100;
+    margin: 5px;
+    direction: rtl;
+}
+@media screen and (max-width: 600px){
+    .courses .box{
+        width: 325px;
+    }
+}

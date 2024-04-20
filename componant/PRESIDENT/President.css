@@ -1,0 +1,22 @@
+.us p{
+    width: 550px;
+    direction: rtl;
+    text-align: start;
+}
+img{
+    width: 350px;
+}
+@media screen and (max-width: 900px){
+    .President{
+        flex-direction: column;
+    }
+    .us p{
+        width: 300px;
+    }
+}
+.image{
+    border-radius: 50%;
+    overflow: hidden;
+    margin:25px;
+    padding: 20px 5px 0;
+}
